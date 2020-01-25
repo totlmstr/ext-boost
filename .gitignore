@@ -1,0 +1,13 @@
+*.exe
+*.pdb
+*.obj
+
+.DS_Store
+
+b2
+bjam
+*.a
+*.o
+
+*.log
+project-config.*

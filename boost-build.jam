@@ -11,7 +11,5 @@
 # option, the version included with the Boost library distribution is used (as
 # opposed to any other Boost Build version installed on the user's sytem).
 
-BOOST_ROOT = $(.boost-build-file:D) ;
-BOOST_BUILD = [ MATCH --boost-build=(.*) : $(ARGV) ] ;
-BOOST_BUILD ?= tools/build/src ;
-boost-build $(BOOST_BUILD) ;
+# NOTE: This file should only contain this line. REVERT changes here if there are more.
+boost-build tools/build/src ;
